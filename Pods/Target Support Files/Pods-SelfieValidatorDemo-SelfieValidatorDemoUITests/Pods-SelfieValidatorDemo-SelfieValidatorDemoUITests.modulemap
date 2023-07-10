@@ -1,0 +1,6 @@
+module Pods_SelfieValidatorDemo_SelfieValidatorDemoUITests {
+  umbrella header "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

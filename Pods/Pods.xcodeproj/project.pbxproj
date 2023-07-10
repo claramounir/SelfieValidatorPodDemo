@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FB4DDC6460A75715214AF206C16B7D /* FaceDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F37EB6D33371942650DAF73E1808030 /* FaceDetectionManager.swift */; };
+		11E2385FC53E260367DD10BFA4C11E4B /* TakenImageResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA837D5E8F0168C1AAE4A36BEDD5D3D6 /* TakenImageResultViewController.xib */; };
+		17C43C5F98648B67CBF7B02F578082ED /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7218FE0E81C301B034812F320B78D /* UIViewController+Toast.swift */; };
+		18A2A78477A5119F7235A6399A50DB50 /* Pods-SelfieValidatorDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C628BE84408954D2A409A79BE6203 /* Pods-SelfieValidatorDemoTests-dummy.m */; };
+		2ECE5811EB561512EEDF4AE58473FCE0 /* Pods-SelfieValidatorDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3AB7EF9C954F307BFE399D4B5C56CC /* Pods-SelfieValidatorDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4604293605CAB762551CBE758820142A /* Pods-SelfieValidatorDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C417C481C3F50A64B8A049386593A77 /* Pods-SelfieValidatorDemo-dummy.m */; };
+		6068405FBAF8CCC8E1DCC72BD94DD32B /* SelfieValidatorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F5C3A7AC243F9576D9B7F79972CF5 /* SelfieValidatorContract.swift */; };
+		6B14F4370FCA21910C885367BAFEC598 /* SelfieValidatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2217E558F342782C5B9F48CD05025A9 /* SelfieValidatorViewModel.swift */; };
+		75A5CAA70468BC5851AA2CD99F06084C /* UIViewController+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322A16904215C125184E9BF1D338261 /* UIViewController+identifier.swift */; };
+		88CDAA0D5A34AD394039C10CCB86AB1A /* TakenImageResultWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDBBEFC66835FEC1717CFDD8E50616 /* TakenImageResultWireFrame.swift */; };
+		94DE0D22B08764F04F6DCD71C3E8262F /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94639CCB7E41CDCA7E1713814624AC8C /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FB515CE4882509F7EE36E3BD2635853 /* TakenImageResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C6CB14802195DBF5B1804FD6D56B61 /* TakenImageResultViewModel.swift */; };
+		A120585F37F1475A1C497074F47CF125 /* SelfieValidatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442A8AA8F15BD259330B12EA31D0C957 /* SelfieValidatorViewController.xib */; };
+		A18809C628A88F0F133208C6D8FA94CF /* SelfieValidatorPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E211D0AFDC01C902424B4091C0552E /* SelfieValidatorPod-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1DD59F8C35C299D3719504BF5CF14C9 /* SelfieValidatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08EBDF17397BD7DB6E02263A3D2FB65 /* SelfieValidatorViewController.swift */; };
+		A3A98612A83C3F9E272417B845DFA528 /* TakenImageResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EDBAC93698446D3B87AF20B415B433 /* TakenImageResultViewController.swift */; };
+		C6FE45BA0327F4F2BFF3FD83CDF8642B /* Bundle+pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5231BB542DAC17AC9FD02D07F67C64 /* Bundle+pod.swift */; };
+		CD6B947E02811EFA7871AB7FEF26A8AF /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D67AF24F4ABE9036FA8763287E028 /* CameraController.swift */; };
+		D3D622FB538B583DD8ECC784431F2AAE /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB75801D4662F3EEC2BC5E2C770507B5 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-dummy.m */; };
+		D45187578B488B62EE72CF06CABD84B7 /* SelfieValidatorPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7367AF9D039917BFA55338643085290 /* SelfieValidatorPod-dummy.m */; };
+		DD2FF41088BF5A137897D099CAFA3DDB /* TakenImageResultViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC8B5FFE518063566522CFF3AFDBF0 /* TakenImageResultViewContract.swift */; };
+		F40ACD22B672DE8C503381D9389CF6F7 /* SelfieValidatorWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3D56D5149474154F23ED98319567A /* SelfieValidatorWireframe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B77517FA8C565D361659DD5B8A593F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C13DEA0F9421BC7EEEC294F69A0C8284;
+			remoteInfo = SelfieValidatorPod;
+		};
+		3E7A343274F5E535AE69E2B6AAC07FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3169DC35CC7358BBCE5FF0FF02D67B;
+			remoteInfo = "SelfieValidatorPod-SelfieValidatorPod";
+		};
+		4A7F76B87341CBE9740AAFCCF4FD12BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBBCCD539B88F1039236B063F2CB945;
+			remoteInfo = "Pods-SelfieValidatorDemo";
+		};
+		D7792395202FEA0C9F17E14FA167C047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C13DEA0F9421BC7EEEC294F69A0C8284;
+			remoteInfo = SelfieValidatorPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048F5C3A7AC243F9576D9B7F79972CF5 /* SelfieValidatorContract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfieValidatorContract.swift; path = Sources/Modules/SelfieModule/SelfieValidatorContract.swift; sourceTree = "<group>"; };
+		0DE3D56D5149474154F23ED98319567A /* SelfieValidatorWireframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfieValidatorWireframe.swift; path = Sources/Modules/SelfieModule/SelfieValidatorWireframe.swift; sourceTree = "<group>"; };
+		1478999D3FB93C0E064B33171652E8EF /* SelfieValidatorPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SelfieValidatorPod.release.xcconfig; sourceTree = "<group>"; };
+		1E3FFC65F8C8783FBCEC6DDCF63595E0 /* Pods-SelfieValidatorDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SelfieValidatorDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24E6F725B95E0D609740862932B05523 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F6C628BE84408954D2A409A79BE6203 /* Pods-SelfieValidatorDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SelfieValidatorDemoTests-dummy.m"; sourceTree = "<group>"; };
+		32C6CB14802195DBF5B1804FD6D56B61 /* TakenImageResultViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakenImageResultViewModel.swift; path = Sources/Modules/ImageResult/TakenImageResultViewModel.swift; sourceTree = "<group>"; };
+		341135752E42AC533AF3819260E4CAD1 /* Pods-SelfieValidatorDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SelfieValidatorDemo-resources.sh"; sourceTree = "<group>"; };
+		3CCDBBEFC66835FEC1717CFDD8E50616 /* TakenImageResultWireFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakenImageResultWireFrame.swift; path = Sources/Modules/ImageResult/TakenImageResultWireFrame.swift; sourceTree = "<group>"; };
+		4121D845E1B55333F11EE3A56B5A1B99 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.modulemap"; sourceTree = "<group>"; };
+		442A8AA8F15BD259330B12EA31D0C957 /* SelfieValidatorViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SelfieValidatorViewController.xib; path = Sources/Modules/SelfieModule/SelfieValidatorViewController.xib; sourceTree = "<group>"; };
+		4D5D0AD9F3AB77D2229F6E3926BBDA5A /* Pods-SelfieValidatorDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelfieValidatorDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		51DA6AC964D6F77E86840A2499E6456B /* ResourceBundle-SelfieValidatorPod-SelfieValidatorPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SelfieValidatorPod-SelfieValidatorPod-Info.plist"; sourceTree = "<group>"; };
+		546F13872024CD58CD016EEEF484F795 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F37EB6D33371942650DAF73E1808030 /* FaceDetectionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaceDetectionManager.swift; path = Sources/Core/FaceDetectionManager.swift; sourceTree = "<group>"; };
+		637EE555E4A9F2AD79EBD10EED073BF9 /* Pods-SelfieValidatorDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		63E211D0AFDC01C902424B4091C0552E /* SelfieValidatorPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SelfieValidatorPod-umbrella.h"; sourceTree = "<group>"; };
+		64382FAE34AD87B1F6BFA8D6780D1DB6 /* Pods-SelfieValidatorDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelfieValidatorDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6565D633951258D4AA93285D4FC10CB7 /* SelfieValidatorPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SelfieValidatorPod-prefix.pch"; sourceTree = "<group>"; };
+		78EDBAC93698446D3B87AF20B415B433 /* TakenImageResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakenImageResultViewController.swift; path = Sources/Modules/ImageResult/TakenImageResultViewController.swift; sourceTree = "<group>"; };
+		7A3D67AF24F4ABE9036FA8763287E028 /* CameraController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraController.swift; path = Sources/Core/CameraController.swift; sourceTree = "<group>"; };
+		7F3C205AC44228DF529E9E8F2A9D5583 /* SelfieValidatorPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SelfieValidatorPod.debug.xcconfig; sourceTree = "<group>"; };
+		80CC8B5FFE518063566522CFF3AFDBF0 /* TakenImageResultViewContract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakenImageResultViewContract.swift; path = Sources/Modules/ImageResult/TakenImageResultViewContract.swift; sourceTree = "<group>"; };
+		80DF48A938C1AEF7329DC87E54D11B0B /* SelfieValidatorPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SelfieValidatorPod.modulemap; sourceTree = "<group>"; };
+		8C417C481C3F50A64B8A049386593A77 /* Pods-SelfieValidatorDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SelfieValidatorDemo-dummy.m"; sourceTree = "<group>"; };
+		934A99A644CB2382D5C07472ACF68E56 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94639CCB7E41CDCA7E1713814624AC8C /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		9A3AB7EF9C954F307BFE399D4B5C56CC /* Pods-SelfieValidatorDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SelfieValidatorDemo-umbrella.h"; sourceTree = "<group>"; };
+		9A91C4FAFD8DD662349E52773C68C0F2 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0751AB4768D523E7C0A4D382917ECF4 /* Pods-SelfieValidatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A14661E7DA445F1DF4FE85D68DA95935 /* SelfieValidatorPod-SelfieValidatorPod */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SelfieValidatorPod-SelfieValidatorPod"; path = SelfieValidatorPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F41E2E30CF9741CAF140DD70F4C065 /* Pods-SelfieValidatorDemoTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SelfieValidatorDemoTests"; path = "libPods-SelfieValidatorDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A875BE74BA43389BAA78E0300626915D /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests"; path = "libPods-SelfieValidatorDemo-SelfieValidatorDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD07EC60CFEA29A7BF7540B5A38F6656 /* Pods-SelfieValidatorDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5231BB542DAC17AC9FD02D07F67C64 /* Bundle+pod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+pod.swift"; path = "Sources/Extensions/Bundle+pod.swift"; sourceTree = "<group>"; };
+		C08EBDF17397BD7DB6E02263A3D2FB65 /* SelfieValidatorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfieValidatorViewController.swift; path = Sources/Modules/SelfieModule/SelfieValidatorViewController.swift; sourceTree = "<group>"; };
+		CA837D5E8F0168C1AAE4A36BEDD5D3D6 /* TakenImageResultViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TakenImageResultViewController.xib; path = Sources/Modules/ImageResult/TakenImageResultViewController.xib; sourceTree = "<group>"; };
+		D2217E558F342782C5B9F48CD05025A9 /* SelfieValidatorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfieValidatorViewModel.swift; path = Sources/Modules/SelfieModule/SelfieValidatorViewModel.swift; sourceTree = "<group>"; };
+		D4E441E70079FF029D02BF3ACC27C4C8 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7367AF9D039917BFA55338643085290 /* SelfieValidatorPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SelfieValidatorPod-dummy.m"; sourceTree = "<group>"; };
+		D77C4DC71FC9AC408B72A272C20AF481 /* Pods-SelfieValidatorDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SelfieValidatorDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D80FEDD6F5DB716EEB323FB04C216189 /* SelfieValidatorPod */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SelfieValidatorPod; path = libSelfieValidatorPod.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B7899F56D48EE2CA6ADFBFBA0E7E2F /* Pods-SelfieValidatorDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SelfieValidatorDemo.modulemap"; sourceTree = "<group>"; };
+		E1456508AB423A369B1EBB0848BA7035 /* Pods-SelfieValidatorDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SelfieValidatorDemo"; path = "libPods-SelfieValidatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E7218FE0E81C301B034812F320B78D /* UIViewController+Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Toast.swift"; path = "Sources/Extensions/UIViewController+Toast.swift"; sourceTree = "<group>"; };
+		EB75801D4662F3EEC2BC5E2C770507B5 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		F322A16904215C125184E9BF1D338261 /* UIViewController+identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+identifier.swift"; path = "Sources/Extensions/UIViewController+identifier.swift"; sourceTree = "<group>"; };
+		F4DD9E20140B0797BFA09738C6852463 /* Pods-SelfieValidatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547C96DD6F486E7FB30D0A8F9566D07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE0FBD97A5343B73927AE79D51ABA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15F4F054232A4EF5857524A4E4F79F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2329239F757314CA1DAF502D6AD75B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC837FA6307107DA1347811981126C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2565DE71A48A473BE74CD7E0D089834A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51DA6AC964D6F77E86840A2499E6456B /* ResourceBundle-SelfieValidatorPod-SelfieValidatorPod-Info.plist */,
+				80DF48A938C1AEF7329DC87E54D11B0B /* SelfieValidatorPod.modulemap */,
+				D7367AF9D039917BFA55338643085290 /* SelfieValidatorPod-dummy.m */,
+				6565D633951258D4AA93285D4FC10CB7 /* SelfieValidatorPod-prefix.pch */,
+				63E211D0AFDC01C902424B4091C0552E /* SelfieValidatorPod-umbrella.h */,
+				7F3C205AC44228DF529E9E8F2A9D5583 /* SelfieValidatorPod.debug.xcconfig */,
+				1478999D3FB93C0E064B33171652E8EF /* SelfieValidatorPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SelfieValidatorPod";
+			sourceTree = "<group>";
+		};
+		630D3C333F1E5EFB11BFB58DBD602936 /* SelfieValidatorPod */ = {
+			isa = PBXGroup;
+			children = (
+				BE5231BB542DAC17AC9FD02D07F67C64 /* Bundle+pod.swift */,
+				7A3D67AF24F4ABE9036FA8763287E028 /* CameraController.swift */,
+				5F37EB6D33371942650DAF73E1808030 /* FaceDetectionManager.swift */,
+				048F5C3A7AC243F9576D9B7F79972CF5 /* SelfieValidatorContract.swift */,
+				C08EBDF17397BD7DB6E02263A3D2FB65 /* SelfieValidatorViewController.swift */,
+				D2217E558F342782C5B9F48CD05025A9 /* SelfieValidatorViewModel.swift */,
+				0DE3D56D5149474154F23ED98319567A /* SelfieValidatorWireframe.swift */,
+				80CC8B5FFE518063566522CFF3AFDBF0 /* TakenImageResultViewContract.swift */,
+				78EDBAC93698446D3B87AF20B415B433 /* TakenImageResultViewController.swift */,
+				32C6CB14802195DBF5B1804FD6D56B61 /* TakenImageResultViewModel.swift */,
+				3CCDBBEFC66835FEC1717CFDD8E50616 /* TakenImageResultWireFrame.swift */,
+				F322A16904215C125184E9BF1D338261 /* UIViewController+identifier.swift */,
+				E1E7218FE0E81C301B034812F320B78D /* UIViewController+Toast.swift */,
+				919FD60BF8E02B28ECEA1DDE70BFDB66 /* Resources */,
+				2565DE71A48A473BE74CD7E0D089834A /* Support Files */,
+			);
+			name = SelfieValidatorPod;
+			path = SelfieValidatorPod;
+			sourceTree = "<group>";
+		};
+		8D0BD96A1A47EFF7B3942243220E250E /* Pods-SelfieValidatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9B7899F56D48EE2CA6ADFBFBA0E7E2F /* Pods-SelfieValidatorDemo.modulemap */,
+				1E3FFC65F8C8783FBCEC6DDCF63595E0 /* Pods-SelfieValidatorDemo-acknowledgements.markdown */,
+				4D5D0AD9F3AB77D2229F6E3926BBDA5A /* Pods-SelfieValidatorDemo-acknowledgements.plist */,
+				8C417C481C3F50A64B8A049386593A77 /* Pods-SelfieValidatorDemo-dummy.m */,
+				341135752E42AC533AF3819260E4CAD1 /* Pods-SelfieValidatorDemo-resources.sh */,
+				9A3AB7EF9C954F307BFE399D4B5C56CC /* Pods-SelfieValidatorDemo-umbrella.h */,
+				F4DD9E20140B0797BFA09738C6852463 /* Pods-SelfieValidatorDemo.debug.xcconfig */,
+				A0751AB4768D523E7C0A4D382917ECF4 /* Pods-SelfieValidatorDemo.release.xcconfig */,
+			);
+			name = "Pods-SelfieValidatorDemo";
+			path = "Target Support Files/Pods-SelfieValidatorDemo";
+			sourceTree = "<group>";
+		};
+		919FD60BF8E02B28ECEA1DDE70BFDB66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				442A8AA8F15BD259330B12EA31D0C957 /* SelfieValidatorViewController.xib */,
+				CA837D5E8F0168C1AAE4A36BEDD5D3D6 /* TakenImageResultViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C38BC3115BE0C39212F3382D2DAACA65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				630D3C333F1E5EFB11BFB58DBD602936 /* SelfieValidatorPod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				C38BC3115BE0C39212F3382D2DAACA65 /* Pods */,
+				F85A74AFB4FB128C5B0050AD925099AF /* Products */,
+				E61054D8C035125C4D0A9B8AA675EC92 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F45E708B6EA52F8B689A48C1FC0A1A /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4121D845E1B55333F11EE3A56B5A1B99 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.modulemap */,
+				24E6F725B95E0D609740862932B05523 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-acknowledgements.markdown */,
+				546F13872024CD58CD016EEEF484F795 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-acknowledgements.plist */,
+				EB75801D4662F3EEC2BC5E2C770507B5 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-dummy.m */,
+				9A91C4FAFD8DD662349E52773C68C0F2 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-resources.sh */,
+				94639CCB7E41CDCA7E1713814624AC8C /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-umbrella.h */,
+				934A99A644CB2382D5C07472ACF68E56 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig */,
+				D4E441E70079FF029D02BF3ACC27C4C8 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests";
+			path = "Target Support Files/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E61054D8C035125C4D0A9B8AA675EC92 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D0BD96A1A47EFF7B3942243220E250E /* Pods-SelfieValidatorDemo */,
+				D6F45E708B6EA52F8B689A48C1FC0A1A /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests */,
+				FE6AB014D48BCB8F77AF914173C87AC8 /* Pods-SelfieValidatorDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F85A74AFB4FB128C5B0050AD925099AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1456508AB423A369B1EBB0848BA7035 /* Pods-SelfieValidatorDemo */,
+				A875BE74BA43389BAA78E0300626915D /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests */,
+				A1F41E2E30CF9741CAF140DD70F4C065 /* Pods-SelfieValidatorDemoTests */,
+				D80FEDD6F5DB716EEB323FB04C216189 /* SelfieValidatorPod */,
+				A14661E7DA445F1DF4FE85D68DA95935 /* SelfieValidatorPod-SelfieValidatorPod */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE6AB014D48BCB8F77AF914173C87AC8 /* Pods-SelfieValidatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D77C4DC71FC9AC408B72A272C20AF481 /* Pods-SelfieValidatorDemoTests-acknowledgements.markdown */,
+				64382FAE34AD87B1F6BFA8D6780D1DB6 /* Pods-SelfieValidatorDemoTests-acknowledgements.plist */,
+				2F6C628BE84408954D2A409A79BE6203 /* Pods-SelfieValidatorDemoTests-dummy.m */,
+				AD07EC60CFEA29A7BF7540B5A38F6656 /* Pods-SelfieValidatorDemoTests.debug.xcconfig */,
+				637EE555E4A9F2AD79EBD10EED073BF9 /* Pods-SelfieValidatorDemoTests.release.xcconfig */,
+			);
+			name = "Pods-SelfieValidatorDemoTests";
+			path = "Target Support Files/Pods-SelfieValidatorDemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08099E8802573729647851CE68074335 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECE5811EB561512EEDF4AE58473FCE0 /* Pods-SelfieValidatorDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0856A050071BCC51AA28DBE0ED47E103 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5C2845A7362B22BDFA1002C61B5848 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DE0D22B08764F04F6DCD71C3E8262F /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF98EEAE14CD138518AE7078AA8A212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18809C628A88F0F133208C6D8FA94CF /* SelfieValidatorPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		004EA6CCDBB3C65D9DF22837F97E71D8 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0F39B2729A91DD8E36FD37304238CF /* Build configuration list for PBXNativeTarget "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests" */;
+			buildPhases = (
+				1C5C2845A7362B22BDFA1002C61B5848 /* Headers */,
+				DE03E54967199CB3B2BC280442ECCB80 /* Sources */,
+				547C96DD6F486E7FB30D0A8F9566D07E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8262F3FCBBB4268990E3E0EDDBF351 /* PBXTargetDependency */,
+			);
+			name = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests";
+			productName = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests";
+			productReference = A875BE74BA43389BAA78E0300626915D /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4724A4035B0621005B3138435E1E6AC8 /* Pods-SelfieValidatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD61A5C432E719EEA9893DF9A739FEB /* Build configuration list for PBXNativeTarget "Pods-SelfieValidatorDemoTests" */;
+			buildPhases = (
+				0856A050071BCC51AA28DBE0ED47E103 /* Headers */,
+				C5B87F248BFDB2E57DB38A8010CC0AA6 /* Sources */,
+				E2329239F757314CA1DAF502D6AD75B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F9FABA60DCCB78C194146F3F704146 /* PBXTargetDependency */,
+			);
+			name = "Pods-SelfieValidatorDemoTests";
+			productName = "Pods-SelfieValidatorDemoTests";
+			productReference = A1F41E2E30CF9741CAF140DD70F4C065 /* Pods-SelfieValidatorDemoTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4C3169DC35CC7358BBCE5FF0FF02D67B /* SelfieValidatorPod-SelfieValidatorPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1710DA8E40985E5B0E683FEA9F8DA67E /* Build configuration list for PBXNativeTarget "SelfieValidatorPod-SelfieValidatorPod" */;
+			buildPhases = (
+				BA5FB7D6019F205FD7AE528E91DC5968 /* Sources */,
+				5CE0FBD97A5343B73927AE79D51ABA0D /* Frameworks */,
+				5A14B1A3149A76E4BE15D9D56E7BE074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SelfieValidatorPod-SelfieValidatorPod";
+			productName = SelfieValidatorPod;
+			productReference = A14661E7DA445F1DF4FE85D68DA95935 /* SelfieValidatorPod-SelfieValidatorPod */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ABBBCCD539B88F1039236B063F2CB945 /* Pods-SelfieValidatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6BFCB1175632079B8E3AD0142527F1 /* Build configuration list for PBXNativeTarget "Pods-SelfieValidatorDemo" */;
+			buildPhases = (
+				08099E8802573729647851CE68074335 /* Headers */,
+				C20AF50FD6A697D58E46D8AEA3D0504C /* Sources */,
+				FC837FA6307107DA1347811981126C81 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632B82397B4BBACAF1CB4F572D57E0B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SelfieValidatorDemo";
+			productName = "Pods-SelfieValidatorDemo";
+			productReference = E1456508AB423A369B1EBB0848BA7035 /* Pods-SelfieValidatorDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C13DEA0F9421BC7EEEC294F69A0C8284 /* SelfieValidatorPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4E2DB2922C0C2AF1C6B7D6D931388B /* Build configuration list for PBXNativeTarget "SelfieValidatorPod" */;
+			buildPhases = (
+				2BF98EEAE14CD138518AE7078AA8A212 /* Headers */,
+				AEDCD9E1C003D45AF232934BC065182F /* Sources */,
+				B15F4F054232A4EF5857524A4E4F79F0 /* Frameworks */,
+				FB65E8082EE333B7F1139E7AB2F54824 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0853136AE288A6CDBC4B786557B683BD /* PBXTargetDependency */,
+			);
+			name = SelfieValidatorPod;
+			productName = SelfieValidatorPod;
+			productReference = D80FEDD6F5DB716EEB323FB04C216189 /* SelfieValidatorPod */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F85A74AFB4FB128C5B0050AD925099AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBBCCD539B88F1039236B063F2CB945 /* Pods-SelfieValidatorDemo */,
+				004EA6CCDBB3C65D9DF22837F97E71D8 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests */,
+				4724A4035B0621005B3138435E1E6AC8 /* Pods-SelfieValidatorDemoTests */,
+				C13DEA0F9421BC7EEEC294F69A0C8284 /* SelfieValidatorPod */,
+				4C3169DC35CC7358BBCE5FF0FF02D67B /* SelfieValidatorPod-SelfieValidatorPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A14B1A3149A76E4BE15D9D56E7BE074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120585F37F1475A1C497074F47CF125 /* SelfieValidatorViewController.xib in Resources */,
+				11E2385FC53E260367DD10BFA4C11E4B /* TakenImageResultViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FB65E8082EE333B7F1139E7AB2F54824 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SelfieValidatorPod/SelfieValidatorPod.modulemap",
+				"${PODS_ROOT}/Headers/Public/SelfieValidatorPod/SelfieValidatorPod-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SelfieValidatorPod-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SelfieValidatorPod/SelfieValidatorPod.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SelfieValidatorPod/SelfieValidatorPod-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEDCD9E1C003D45AF232934BC065182F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FE45BA0327F4F2BFF3FD83CDF8642B /* Bundle+pod.swift in Sources */,
+				CD6B947E02811EFA7871AB7FEF26A8AF /* CameraController.swift in Sources */,
+				06FB4DDC6460A75715214AF206C16B7D /* FaceDetectionManager.swift in Sources */,
+				6068405FBAF8CCC8E1DCC72BD94DD32B /* SelfieValidatorContract.swift in Sources */,
+				D45187578B488B62EE72CF06CABD84B7 /* SelfieValidatorPod-dummy.m in Sources */,
+				A1DD59F8C35C299D3719504BF5CF14C9 /* SelfieValidatorViewController.swift in Sources */,
+				6B14F4370FCA21910C885367BAFEC598 /* SelfieValidatorViewModel.swift in Sources */,
+				F40ACD22B672DE8C503381D9389CF6F7 /* SelfieValidatorWireframe.swift in Sources */,
+				DD2FF41088BF5A137897D099CAFA3DDB /* TakenImageResultViewContract.swift in Sources */,
+				A3A98612A83C3F9E272417B845DFA528 /* TakenImageResultViewController.swift in Sources */,
+				9FB515CE4882509F7EE36E3BD2635853 /* TakenImageResultViewModel.swift in Sources */,
+				88CDAA0D5A34AD394039C10CCB86AB1A /* TakenImageResultWireFrame.swift in Sources */,
+				75A5CAA70468BC5851AA2CD99F06084C /* UIViewController+identifier.swift in Sources */,
+				17C43C5F98648B67CBF7B02F578082ED /* UIViewController+Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5FB7D6019F205FD7AE528E91DC5968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20AF50FD6A697D58E46D8AEA3D0504C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604293605CAB762551CBE758820142A /* Pods-SelfieValidatorDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B87F248BFDB2E57DB38A8010CC0AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A2A78477A5119F7235A6399A50DB50 /* Pods-SelfieValidatorDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE03E54967199CB3B2BC280442ECCB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D622FB538B583DD8ECC784431F2AAE /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0853136AE288A6CDBC4B786557B683BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SelfieValidatorPod-SelfieValidatorPod";
+			target = 4C3169DC35CC7358BBCE5FF0FF02D67B /* SelfieValidatorPod-SelfieValidatorPod */;
+			targetProxy = 3E7A343274F5E535AE69E2B6AAC07FA5 /* PBXContainerItemProxy */;
+		};
+		52F9FABA60DCCB78C194146F3F704146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SelfieValidatorDemo";
+			target = ABBBCCD539B88F1039236B063F2CB945 /* Pods-SelfieValidatorDemo */;
+			targetProxy = 4A7F76B87341CBE9740AAFCCF4FD12BF /* PBXContainerItemProxy */;
+		};
+		5E8262F3FCBBB4268990E3E0EDDBF351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SelfieValidatorPod;
+			target = C13DEA0F9421BC7EEEC294F69A0C8284 /* SelfieValidatorPod */;
+			targetProxy = D7792395202FEA0C9F17E14FA167C047 /* PBXContainerItemProxy */;
+		};
+		632B82397B4BBACAF1CB4F572D57E0B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SelfieValidatorPod;
+			target = C13DEA0F9421BC7EEEC294F69A0C8284 /* SelfieValidatorPod */;
+			targetProxy = 0B77517FA8C565D361659DD5B8A593F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		294467D7CB3EA772E6E2C1D7FA36BACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0751AB4768D523E7C0A4D382917ECF4 /* Pods-SelfieValidatorDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SelfieValidatorDemo/Pods-SelfieValidatorDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		539C3E03E6D37B9CF735F15A3DE04C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DD9E20140B0797BFA09738C6852463 /* Pods-SelfieValidatorDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SelfieValidatorDemo/Pods-SelfieValidatorDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5950CA0A9DBEBEFAA202313CD29F7C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637EE555E4A9F2AD79EBD10EED073BF9 /* Pods-SelfieValidatorDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7C56005B039C2FE7844C28FC306BD6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1478999D3FB93C0E064B33171652E8EF /* SelfieValidatorPod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SelfieValidatorPod/SelfieValidatorPod-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SelfieValidatorPod/SelfieValidatorPod.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SelfieValidatorPod;
+				PRODUCT_NAME = SelfieValidatorPod;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A802CC40C935164FDF4D87B0683761C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934A99A644CB2382D5C07472ACF68E56 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABE5A2D489A5DF86230B41DC74A4D8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3C205AC44228DF529E9E8F2A9D5583 /* SelfieValidatorPod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SelfieValidatorPod";
+				IBSC_MODULE = SelfieValidatorPod;
+				INFOPLIST_FILE = "Target Support Files/SelfieValidatorPod/ResourceBundle-SelfieValidatorPod-SelfieValidatorPod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = SelfieValidatorPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C47D4527706A25D6EC381B31FDE9FE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD07EC60CFEA29A7BF7540B5A38F6656 /* Pods-SelfieValidatorDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC3DFED4E08B724FB2B242C837AC0821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3C205AC44228DF529E9E8F2A9D5583 /* SelfieValidatorPod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SelfieValidatorPod/SelfieValidatorPod-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SelfieValidatorPod/SelfieValidatorPod.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SelfieValidatorPod;
+				PRODUCT_NAME = SelfieValidatorPod;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7DA8AD7D19C755ED55A45C0D6E21855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E441E70079FF029D02BF3ACC27C4C8 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC405F0CD19D9D39D1ABD403B1BC1D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1478999D3FB93C0E064B33171652E8EF /* SelfieValidatorPod.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SelfieValidatorPod";
+				IBSC_MODULE = SelfieValidatorPod;
+				INFOPLIST_FILE = "Target Support Files/SelfieValidatorPod/ResourceBundle-SelfieValidatorPod-SelfieValidatorPod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = SelfieValidatorPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1710DA8E40985E5B0E683FEA9F8DA67E /* Build configuration list for PBXNativeTarget "SelfieValidatorPod-SelfieValidatorPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE5A2D489A5DF86230B41DC74A4D8E7 /* Debug */,
+				FC405F0CD19D9D39D1ABD403B1BC1D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6BFCB1175632079B8E3AD0142527F1 /* Build configuration list for PBXNativeTarget "Pods-SelfieValidatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539C3E03E6D37B9CF735F15A3DE04C9F /* Debug */,
+				294467D7CB3EA772E6E2C1D7FA36BACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0F39B2729A91DD8E36FD37304238CF /* Build configuration list for PBXNativeTarget "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A802CC40C935164FDF4D87B0683761C5 /* Debug */,
+				F7DA8AD7D19C755ED55A45C0D6E21855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD61A5C432E719EEA9893DF9A739FEB /* Build configuration list for PBXNativeTarget "Pods-SelfieValidatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47D4527706A25D6EC381B31FDE9FE34 /* Debug */,
+				5950CA0A9DBEBEFAA202313CD29F7C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4E2DB2922C0C2AF1C6B7D6D931388B /* Build configuration list for PBXNativeTarget "SelfieValidatorPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3DFED4E08B724FB2B242C837AC0821 /* Debug */,
+				7C56005B039C2FE7844C28FC306BD6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

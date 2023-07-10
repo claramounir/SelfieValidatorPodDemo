@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39EA2F6E3906521F80550255 /* libPods-SelfieValidatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F141D1B3E24763D62E5D677A /* libPods-SelfieValidatorDemo.a */; };
+		901220C62DEE771B071E7649 /* libPods-SelfieValidatorDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4AF0CF883011CA711B065D /* libPods-SelfieValidatorDemoTests.a */; };
 		B83B46512A5AF3B100CDD75F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B46502A5AF3B100CDD75F /* AppDelegate.swift */; };
 		B83B46532A5AF3B100CDD75F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B46522A5AF3B100CDD75F /* SceneDelegate.swift */; };
 		B83B46552A5AF3B100CDD75F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B46542A5AF3B100CDD75F /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		B83B46682A5AF3B300CDD75F /* SelfieValidatorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B46672A5AF3B300CDD75F /* SelfieValidatorDemoTests.swift */; };
 		B83B46722A5AF3B300CDD75F /* SelfieValidatorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B46712A5AF3B300CDD75F /* SelfieValidatorDemoUITests.swift */; };
 		B83B46742A5AF3B300CDD75F /* SelfieValidatorDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B46732A5AF3B300CDD75F /* SelfieValidatorDemoUITestsLaunchTests.swift */; };
+		D3D2B5B63A06DA7A06F68811 /* libPods-SelfieValidatorDemo-SelfieValidatorDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C18CEC2C51FF7D7A60A1A37 /* libPods-SelfieValidatorDemo-SelfieValidatorDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5603E8EF6A7455F572305938 /* Pods-SelfieValidatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorDemo.release.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorDemo/Pods-SelfieValidatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5D55CCE36DB2F188F63BAAA1 /* Pods-SelfieValidatorDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorDemoTests/Pods-SelfieValidatorDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73552E3BDECD47D71B749C70 /* Pods-SelfieValidatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorDemo.debug.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorDemo/Pods-SelfieValidatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		74D731A8B7BCCEB31DF819B3 /* Pods-SelfieValidatorDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorDemoTests/Pods-SelfieValidatorDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C18CEC2C51FF7D7A60A1A37 /* libPods-SelfieValidatorDemo-SelfieValidatorDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelfieValidatorDemo-SelfieValidatorDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1CAFCCFCE8D6B4E3ECB054 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4AF0CF883011CA711B065D /* libPods-SelfieValidatorDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelfieValidatorDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83B464D2A5AF3B100CDD75F /* SelfieValidatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieValidatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83B46502A5AF3B100CDD75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83B46522A5AF3B100CDD75F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		B83B466D2A5AF3B300CDD75F /* SelfieValidatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieValidatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83B46712A5AF3B300CDD75F /* SelfieValidatorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieValidatorDemoUITests.swift; sourceTree = "<group>"; };
 		B83B46732A5AF3B300CDD75F /* SelfieValidatorDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieValidatorDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E09FB24E7B6BE8C586383938 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F141D1B3E24763D62E5D677A /* libPods-SelfieValidatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelfieValidatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39EA2F6E3906521F80550255 /* libPods-SelfieValidatorDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901220C62DEE771B071E7649 /* libPods-SelfieValidatorDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D2B5B63A06DA7A06F68811 /* libPods-SelfieValidatorDemo-SelfieValidatorDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F2DBB27EF0390209F711AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73552E3BDECD47D71B749C70 /* Pods-SelfieValidatorDemo.debug.xcconfig */,
+				5603E8EF6A7455F572305938 /* Pods-SelfieValidatorDemo.release.xcconfig */,
+				9A1CAFCCFCE8D6B4E3ECB054 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig */,
+				E09FB24E7B6BE8C586383938 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig */,
+				5D55CCE36DB2F188F63BAAA1 /* Pods-SelfieValidatorDemoTests.debug.xcconfig */,
+				74D731A8B7BCCEB31DF819B3 /* Pods-SelfieValidatorDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B83B46442A5AF3B100CDD75F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				B83B46662A5AF3B300CDD75F /* SelfieValidatorDemoTests */,
 				B83B46702A5AF3B300CDD75F /* SelfieValidatorDemoUITests */,
 				B83B464E2A5AF3B100CDD75F /* Products */,
+				07F2DBB27EF0390209F711AA /* Pods */,
+				EB45DED11F258CAB51DCEF41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +157,16 @@
 			path = SelfieValidatorDemoUITests;
 			sourceTree = "<group>";
 		};
+		EB45DED11F258CAB51DCEF41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F141D1B3E24763D62E5D677A /* libPods-SelfieValidatorDemo.a */,
+				7C18CEC2C51FF7D7A60A1A37 /* libPods-SelfieValidatorDemo-SelfieValidatorDemoUITests.a */,
+				9C4AF0CF883011CA711B065D /* libPods-SelfieValidatorDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B83B46772A5AF3B300CDD75F /* Build configuration list for PBXNativeTarget "SelfieValidatorDemo" */;
 			buildPhases = (
+				336E85E54A9CD32564DF20F4 /* [CP] Check Pods Manifest.lock */,
 				B83B46492A5AF3B100CDD75F /* Sources */,
 				B83B464A2A5AF3B100CDD75F /* Frameworks */,
 				B83B464B2A5AF3B100CDD75F /* Resources */,
+				6C4BD617A4DF2D754FB33F62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B83B467A2A5AF3B300CDD75F /* Build configuration list for PBXNativeTarget "SelfieValidatorDemoTests" */;
 			buildPhases = (
+				BC799DEF6F247815A92E443C /* [CP] Check Pods Manifest.lock */,
 				B83B465F2A5AF3B300CDD75F /* Sources */,
 				B83B46602A5AF3B300CDD75F /* Frameworks */,
 				B83B46612A5AF3B300CDD75F /* Resources */,
@@ -169,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B83B467D2A5AF3B300CDD75F /* Build configuration list for PBXNativeTarget "SelfieValidatorDemoUITests" */;
 			buildPhases = (
+				D69A6ABEF678A62B56C05EC9 /* [CP] Check Pods Manifest.lock */,
 				B83B46692A5AF3B300CDD75F /* Sources */,
 				B83B466A2A5AF3B300CDD75F /* Frameworks */,
 				B83B466B2A5AF3B300CDD75F /* Resources */,
+				16BEF678FFF086C10C9FF1F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16BEF678FFF086C10C9FF1F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		336E85E54A9CD32564DF20F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelfieValidatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4BD617A4DF2D754FB33F62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorDemo/Pods-SelfieValidatorDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorDemo/Pods-SelfieValidatorDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorDemo/Pods-SelfieValidatorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC799DEF6F247815A92E443C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelfieValidatorDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D69A6ABEF678A62B56C05EC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B83B46492A5AF3B100CDD75F /* Sources */ = {
@@ -432,6 +580,7 @@
 		};
 		B83B46782A5AF3B300CDD75F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73552E3BDECD47D71B749C70 /* Pods-SelfieValidatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +609,7 @@
 		};
 		B83B46792A5AF3B300CDD75F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5603E8EF6A7455F572305938 /* Pods-SelfieValidatorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +638,7 @@
 		};
 		B83B467B2A5AF3B300CDD75F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D55CCE36DB2F188F63BAAA1 /* Pods-SelfieValidatorDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +659,7 @@
 		};
 		B83B467C2A5AF3B300CDD75F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D731A8B7BCCEB31DF819B3 /* Pods-SelfieValidatorDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +680,7 @@
 		};
 		B83B467E2A5AF3B300CDD75F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1CAFCCFCE8D6B4E3ECB054 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +699,7 @@
 		};
 		B83B467F2A5AF3B300CDD75F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09FB24E7B6BE8C586383938 /* Pods-SelfieValidatorDemo-SelfieValidatorDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

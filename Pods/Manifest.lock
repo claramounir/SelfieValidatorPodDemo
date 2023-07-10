@@ -1,0 +1,16 @@
+PODS:
+  - SelfieValidatorPod (0.1.5)
+
+DEPENDENCIES:
+  - SelfieValidatorPod (= 0.1.5)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SelfieValidatorPod
+
+SPEC CHECKSUMS:
+  SelfieValidatorPod: bcd82524ae1dc67eb8d62215c436379bd8bb8f97
+
+PODFILE CHECKSUM: ce3229f1de47dcce7ecffdfe0499a97c9311dfe9
+
+COCOAPODS: 1.12.1
